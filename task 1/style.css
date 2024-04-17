@@ -1,0 +1,128 @@
+body{
+    margin: 0%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(sunrise-1014712_1280.jpg);
+    background-repeat: no-repeat;
+    filter: brightness(-30px);
+}
+.navbar{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.navbar a:hover{
+    background-color: orangered;
+    border-radius: 10px;
+    margin: 10px;
+}
+.nav-left h1{
+    font-family: Helvetica;
+    padding: 10px;
+}
+.nav-left h1 span{
+    color: orangered;
+}
+.home{
+    height: 90vh;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.home-right{
+    padding-right: 100px;
+}
+.home-left{
+    text-align: right;
+    padding: 50px 30px;
+    font-family: sans-serif;
+}
+.home-left span{
+    color: yellow;
+}
+.card {
+    width: 240px;
+    height: 254px;
+    border: 1px solid #0b0b0b;
+    padding: 0 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 12px;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    backdrop-filter: blur(2px)
+}
+  
+.card > * {
+    margin: 0;
+}
+  
+.card__title {
+    font-size: 23px;
+    font-weight: 900;
+    color: yellow;
+}
+  
+.card__content {
+    font-size: 13px;
+    line-height: 18px;
+    color: white;
+}
+  
+.card__form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.card__form input {
+    margin-top: 10px;
+    outline: 0;
+    background: rgb(255, 255, 255);
+    box-shadow: transparent 0px 0px 0px 1px inset;
+    padding: 0.6em;
+    border-radius: 14px;
+    border: 1px solid #333;
+    color: black;
+    text-align: center;
+}
+  
+.card__form button {
+    border: 0;
+    background: orangered;
+    color: #fff;
+    padding: 0.68em;
+    border-radius: 14px;
+    font-weight: bold;
+}
+  
+.sign-up:hover {
+    opacity: 0.8;
+} 
+.social-icons h2{
+    text-align: left;
+    font-family: sans-serif;
+    color: yellow;
+}
+.insta{
+    height: 30px;
+    width: 30px;
+    padding: 0px 20px;
+    border-radius: 40%;
+}
+  
