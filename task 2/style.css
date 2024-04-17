@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url("https://wallpapercave.com/wp/wp3701496.jpg"); /* Replace with your preferred image URL */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #fff; /* Text color for light background */
+}
+  
+h1 {
+    text-align: center;
+    color: yellow; /* Adjust color if needed for better contrast */
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+  
+#todo-list {
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(206, 223, 100, 0.8); /* Semi-transparent white */
+    border-radius: 4px;
+}
+  
+#tasks {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+#tasks li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #9a8303; /* Light gray for list items */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+  
+#tasks li:hover {
+    transform: scale(1.02);
+}
+  
+#tasks li.completed {
+    text-decoration: line-through;
+    color: #f90202;
+}
+  
+#tasks li input[type="checkbox"] {
+    margin-right: 10px;
+}
+  
+#add-task-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+  
+#add-task-form label {
+    flex: 1;
+    color: orange; /* Adjust color if needed for better contrast */
+    font-weight: bold;
+}
+  
+#new-task {
+    flex: 2;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+  
+#add-task-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #c8ff00; /* Green */
+    color: rgb(2, 0, 0);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+  
+#add-task-form button:hover {
+    background-color: #3e8e41; /* Darker green */
+}
+  
+#no-tasks-message {
+    text-align: center;
+    color: #aaa;
+    font-style: italic;
+    margin-top: 20px;
+}
+  
